@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Word Delete">
+    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Load Word File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663000426226</updated>
       <workItem from="1663000427656" duration="1677000" />
-      <workItem from="1663002126640" duration="6502000" />
+      <workItem from="1663002126640" duration="7573000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1663003280188</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663007634745</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Load Word File">
+      <created>1663008946782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663008946782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +129,7 @@
     <MESSAGE value="Word Read All" />
     <MESSAGE value="Word Upload" />
     <MESSAGE value="Word Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Word Delete" />
+    <MESSAGE value="Load Word File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Load Word File" />
   </component>
 </project>

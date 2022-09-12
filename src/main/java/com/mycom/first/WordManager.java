@@ -1,6 +1,6 @@
 package com.mycom.first;
 
-import java.io.FileNotFoundException;
+
 import java.util.Scanner;
 
 public class WordManager {
@@ -38,10 +38,10 @@ public class WordManager {
                 wordCRUD.listAll();
             }
             else if (menu == 2){
-                wordCRUD.;
+                wordCRUD.searchWord();
             }
             else if (menu == 3) {
-                wordCRUD.;
+                wordCRUD.searchLevel();
             }
             else if (menu == 4){
                 wordCRUD.addItem();
@@ -53,7 +53,7 @@ public class WordManager {
                 wordCRUD.deleteItem();
             }
             else if (menu == 7){
-                wordCRUD.;
+                wordCRUD.saveFile();
             }
         }
     }
