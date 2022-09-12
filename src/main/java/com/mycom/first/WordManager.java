@@ -32,11 +32,26 @@ public class WordManager {
             int menu = selectMenu();
             System.out.println(menu);
             if (menu == 0) break;
-            if (menu == 4) {
+            if (menu == 1) {
+                wordCRUD.listAll();
+            }
+            else if (menu == 2){
+                wordCRUD.;
+            }
+            else if (menu == 3) {
+                wordCRUD.;
+            }
+            else if (menu == 4){
                 wordCRUD.addWord();
             }
-            else if (menu == 1){
-                //list
+            else if (menu == 5){
+                wordCRUD.;
+            }
+            else if (menu == 6){
+                wordCRUD.;
+            }
+            else if (menu == 7){
+                wordCRUD.;
             }
         }
     }
