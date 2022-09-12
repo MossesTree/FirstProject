@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Word Create">
+    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Word Read All">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663000426226</updated>
       <workItem from="1663000427656" duration="1677000" />
-      <workItem from="1663002126640" duration="3744000" />
+      <workItem from="1663002126640" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1663003280188</created>
@@ -81,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663005085493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Word Read All">
+      <created>1663005910704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663005910704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Word Create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Word Create" />
+    <MESSAGE value="Word Read All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Word Read All" />
   </component>
 </project>
