@@ -1,5 +1,6 @@
 package com.mycom.first;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class WordManager {
@@ -27,7 +28,8 @@ public class WordManager {
         return s.nextInt();
     }
 
-    public void start() {
+    public void start(){
+        wordCRUD.loadFile();
         while (true) {
             int menu = selectMenu();
             System.out.println(menu);
