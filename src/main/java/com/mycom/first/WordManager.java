@@ -32,16 +32,15 @@ public class WordManager {
         wordCRUD.loadFile();
         while (true) {
             int menu = selectMenu();
-            System.out.println(menu);
             if (menu == 0) break;
             if (menu == 1) {
                 wordCRUD.listAll();
             }
             else if (menu == 2){
-                wordCRUD.searchWord();
+                wordCRUD.searchLevel();
             }
             else if (menu == 3) {
-                wordCRUD.searchLevel();
+                wordCRUD.searchWord();
             }
             else if (menu == 4){
                 wordCRUD.addItem();

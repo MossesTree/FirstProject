@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class WordCRUD implements ICRUD{
     ArrayList<Word> list;
     Scanner s;
-    final String fname = "Dictionary.txt";
+    final String fname = "Wordtest.txt";
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s=s;
@@ -83,13 +83,13 @@ public class WordCRUD implements ICRUD{
     }
 
     public void updateItem() {
-        System.out.println("=> 수정할 단어 검색 : ");
+        System.out.print("=> 수정할 단어 검색 : ");
         String keyword = s.next();
         ArrayList<Integer> idlist = this.listAll(keyword);
-        System.out.println("=> 수정할 번호 선택 : ");
+        System.out.print("=> 수정할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
-        System.out.println("=> 뜻 입력 : ");
+        System.out.print("=> 뜻 입력 : ");
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
@@ -97,13 +97,13 @@ public class WordCRUD implements ICRUD{
     }
 
     public void deleteItem() {
-        System.out.println("=> 삭제할 단어 검색 : ");
+        System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();
         ArrayList<Integer> idlist = this.listAll(keyword);
-        System.out.println("=> 삭제할 번호 선택 : ");
+        System.out.print("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
-        System.out.println("=> 정말로 삭제하실래요?(Y/n) ");
+        System.out.print("=> 정말로 삭제하실래요?(Y/n) ");
         String ans = s.nextLine();
         if(ans.equalsIgnoreCase("y")) {
             list.remove((int)idlist.get(id - 1));
@@ -121,7 +121,7 @@ public class WordCRUD implements ICRUD{
             while(true){
                 line = br.readLine();
                 if (line == null) break;
-
+                count++;
                 String[] data = line.split("\\|");
                 int level = Integer.parseInt(data[0]);
                 String word = data[1];
@@ -153,6 +153,7 @@ public class WordCRUD implements ICRUD{
         listAll(level);
     }
     public void searchWord(){
+        s.nextLine();
         System.out.print("=> 원하는 단어는? ");
         String keyword = s.nextLine();
         listAll(keyword);

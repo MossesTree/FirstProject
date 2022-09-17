@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Load Word File">
+    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Search Word List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/USER/IdeaProjects/FirstProject",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/FirstProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663000426226</updated>
       <workItem from="1663000427656" duration="1677000" />
-      <workItem from="1663002126640" duration="7573000" />
+      <workItem from="1663002126640" duration="13295000" />
+      <workItem from="1663287209537" duration="6084000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1663003280188</created>
@@ -106,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663008946782</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Save Word File">
+      <created>1663009891119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663009891119</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Search Word List">
+      <created>1663009955183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663009955183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +148,8 @@
     <MESSAGE value="Word Upload" />
     <MESSAGE value="Word Delete" />
     <MESSAGE value="Load Word File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Load Word File" />
+    <MESSAGE value="Save Word File" />
+    <MESSAGE value="Search Word List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Word List" />
   </component>
 </project>
