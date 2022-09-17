@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Search Word List">
+    <list default="true" id="090ca89f-62fa-4758-a8a9-9536ffd4c31c" name="Changes" comment="Make a README.md">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Savedfile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/first/WordManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/LoadFile.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/LoadFile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordCRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycom/first/WordManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <updated>1663000426226</updated>
       <workItem from="1663000427656" duration="1677000" />
       <workItem from="1663002126640" duration="13295000" />
-      <workItem from="1663287209537" duration="6084000" />
+      <workItem from="1663287209537" duration="10980000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1663003280188</created>
@@ -124,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663009955183</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Println to print&#10;Set filename to Wordtest">
+      <created>1663418667560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663418667560</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Make a Screenshots folder">
+      <created>1663418696006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663418696006</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +163,9 @@
     <MESSAGE value="Load Word File" />
     <MESSAGE value="Save Word File" />
     <MESSAGE value="Search Word List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search Word List" />
+    <MESSAGE value="Println to print&#10;Set filename to Wordtest" />
+    <MESSAGE value="Make a Screenshots folder" />
+    <MESSAGE value="Make a README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a README.md" />
   </component>
 </project>
